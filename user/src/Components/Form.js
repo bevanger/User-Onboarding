@@ -71,7 +71,7 @@ return (
                 checked={values.terms}
             />
         </label>
-        <button disabled={disabled}>Submit</button>
+        <button id="submitButton" disabled={disabled}>Submit</button>
     </div>
 </form>
 )
